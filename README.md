@@ -13,7 +13,7 @@ Vanilla as possible in a multiplayer environment.
 ## Server details
 
 - Minecraft 1.16.1
-- Paper
+- [Paper](https://papermc.io/)
 
 ## Plugins
 
@@ -25,5 +25,8 @@ Vanilla as possible in a multiplayer environment.
 While we try to stay as closely to Vanilla as sensible, we've made the following
 changes to improve our gaming experience:
 
-- Fires don't spread
-- Hard difficulty
+- Hard difficulty - We want those zombie-converted villagers.
+- Fires don't spread - No one wants their build ruined by a random lightning
+  strike.
+- Only one player needs to sleep to skip the night - this is as close to the
+  singleplayer experience as possible.
