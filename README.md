@@ -3,6 +3,8 @@
 A collaborative, whitelisted Minecraft server. The goal is to stick as close to
 Vanilla as possible in a multiplayer environment.
 
+- [Map](http://thedistance.mcserver.pw:8124/)
+
 ## Guidelines
 
 - Focused on exploration/building.
