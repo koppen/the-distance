@@ -1,8 +1,7 @@
 #!/bin/bash
 
 ncftpget \
-  -u $FTP_USER \
-  51.89.67.47 \
+  -f thedistance.cfg \
   config/ \
   bukkit.yml \
   paper.yml \
