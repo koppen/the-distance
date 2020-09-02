@@ -1,12 +1,12 @@
 #!/bin/bash
 
-wget \
-  --user=$FTP_USER \
-  --ask-password \
-  --directory-prefix=config/ \
-  --force-directories \
-  --input-file=files.txt \
-  --no-host-directories \
-  --no-verbose \
-  --timestamping \
-  ftp://51.89.67.47/
+ncftpget \
+  -u $FTP_USER \
+  51.89.67.47 \
+  config/ \
+  bukkit.yml \
+  paper.yml \
+  permissions.yml \
+  plugins/dynmap/configuration.txt \
+  server.properties \
+  spigot.yml
