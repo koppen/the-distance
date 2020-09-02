@@ -1,0 +1,15 @@
+#!/bin/bash
+
+ncftpput -bb -f thedistance.cfg \
+  . \
+  config/bukkit.yml \
+  config/paper.yml \
+  config/permissions.yml \
+  config/server.properties \
+  config/spigot.yml
+
+ncftpput -bb -f thedistance.cfg \
+  plugins/dynmap \
+  config/plugins/dynmap/configuration.txt
+
+ncftpbatch -D
